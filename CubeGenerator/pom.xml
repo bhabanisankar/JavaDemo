@@ -7,7 +7,6 @@
   <version>1.0-SNAPSHOT</version>
   <name>CubeGenerator</name>
   <url>http://maven.apache.org</url>
-  <build>
     <plugins>
       <plugin>
   <dependencies>
@@ -32,5 +31,4 @@
  </repositories>
          </plugin>
     </plugins>
-  </build>
 </project>
