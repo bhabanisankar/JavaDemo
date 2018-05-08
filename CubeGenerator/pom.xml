@@ -21,5 +21,10 @@
       <name>Internal Release</name>
       <url>http://localhost:8081/nexus/content/repositories/1234</url>
     </repository>
+    <snapshotRepository>
+      <id>deployment</id>
+      <name>Internal snapshot Release</name>
+      <url>http://localhost:8081/nexus/content/repositories/1345/</url>
+    </snapshotRepository>
     </distributionManagement>
 </project>
