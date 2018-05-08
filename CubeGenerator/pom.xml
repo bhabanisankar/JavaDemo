@@ -15,4 +15,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <repositories>
+    <repository>
+      <id>Internal Release</id>
+      <url>http://localhost:8081/nexus/content/repositories/1345/</url>
+    </repository>
+ </repositories>
+  <repositories>
+    <snapshotrepository>
+      <id>Internal snapshot release</id>
+      <url>http://localhost:8081/nexus/content/repositories/1234/</url>
+    </snapshotrepository>
+ </repositories>
 </project>
